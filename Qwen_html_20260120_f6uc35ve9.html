@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Modern Minesweeper</title>
+    <title>qwensweeper</title>
     <style>
         * {
             margin: 0;
@@ -323,30 +323,30 @@
 <body>
     <div class="container">
         <header>
-            <h1>MODERN MINESWEEPER</h1>
-            <p>Uncover tiles without hitting mines!</p>
+            <h1>qwensweeper</h1>
+            <p>ye</p>
         </header>
         
         <div class="stats">
             <div class="stat-box">
                 <div class="stat-value" id="mines-count">10</div>
-                <div class="stat-label">MINES</div>
+                <div class="stat-label">mines</div>
             </div>
             <div class="stat-box">
                 <div class="stat-value" id="timer">0</div>
-                <div class="stat-label">SECONDS</div>
+                <div class="stat-label">time</div>
             </div>
             <div class="stat-box">
                 <div class="stat-value" id="flags-count">0</div>
-                <div class="stat-label">FLAGS</div>
+                <div class="stat-label">flag count</div>
             </div>
         </div>
         
         <div class="controls">
-            <button class="btn selected" id="easy-btn">Easy</button>
-            <button class="btn" id="medium-btn">Medium</button>
-            <button class="btn" id="hard-btn">Hard</button>
-            <button class="btn" id="custom-btn">Custom</button>
+            <button class="btn selected" id="easy-btn">easy</button>
+            <button class="btn" id="medium-btn">medium</button>
+            <button class="btn" id="hard-btn">hard</button>
+            <button class="btn" id="custom-btn">custom</button>
         </div>
         
         <div class="message" id="message"></div>
@@ -366,27 +366,27 @@
     <div class="custom-modal" id="custom-modal">
         <div class="modal-content">
             <div class="modal-header">
-                <div class="modal-title">Custom Game</div>
+                <div class="modal-title">custom grid</div>
                 <button class="close-btn" id="close-modal">&times;</button>
             </div>
             <div class="form-group">
-                <label for="rows">Rows (5-30):</label>
+                <label for="rows">rows (5-30):</label>
                 <input type="number" id="rows" min="5" max="30" value="10">
             </div>
             <div class="form-group">
-                <label for="cols">Columns (5-30):</label>
+                <label for="cols">columns (5-30):</label>
                 <input type="number" id="cols" min="5" max="30" value="10">
             </div>
             <div class="form-group">
-                <label for="mines">Mines (1-50% of cells):</label>
+                <label for="mines">mines (1-50% of cells):</label>
                 <input type="number" id="mines" min="1" max="150" value="15">
             </div>
-            <button class="btn" id="start-custom">Start Game</button>
+            <button class="btn" id="start-custom">start game</button>
         </div>
     </div>
     
     <footer>
-        Right-click or use flag mode to mark mines | Created with HTML, CSS & JavaScript
+        right-click or use flag mode to mark mines | created by qwen and slyper
     </footer>
 
     <script>
